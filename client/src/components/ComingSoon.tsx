@@ -20,7 +20,7 @@ export default function ComingSoon() {
   launchDate.setMonth(launchDate.getMonth() + 3);
 
   return (
-    <div className="relative w-full h-screen bg-slate-900 overflow-hidden">
+    <div className="relative w-full min-h-screen bg-slate-900 overflow-hidden">
       {/* Particle Background */}
       <ParticleBackground />
       
@@ -47,7 +47,7 @@ export default function ComingSoon() {
       </div>
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center p-4 z-10">
+      <div className="absolute inset-0 flex flex-col items-center justify-center p-4 pt-20 z-10">
         {/* Company Name */}
         <div className={`text-center mb-8 transition-all duration-1000 ${
           isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'

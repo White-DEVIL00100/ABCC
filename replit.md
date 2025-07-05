@@ -38,9 +38,12 @@ This is a full-stack web application for Abbasi Green Contracting Company featur
 
 ### UI Components
 - **ComingSoon.tsx**: Main landing page component integrating 3D scene and UI
+- **AboutUs.tsx**: Company information page with mission, values, and team details
+- **ContactUs.tsx**: Contact form and business information page
 - **EmailSubscription.tsx**: Email capture form with loading states
 - **CountdownTimer.tsx**: Live countdown to launch date
 - **ParticleBackground.tsx**: Canvas-based particle animation system
+- **Navigation.tsx**: Responsive navigation component with mobile menu
 
 ### State Management
 - **useGame.tsx**: Game phase management (ready/playing/ended)
@@ -111,7 +114,8 @@ This is a full-stack web application for Abbasi Green Contracting Company featur
 
 ```
 Changelog:
-- July 05, 2025. Initial setup
+- July 05, 2025: Initial setup with 3D coming soon page
+- July 05, 2025: Added About Us and Contact Us pages with navigation system
 ```
 
 ## User Preferences
