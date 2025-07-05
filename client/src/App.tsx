@@ -1,6 +1,7 @@
 import { Suspense, useState } from "react";
-import ComingSoon from "./components/ComingSoon";
+import HomePage from "./pages/HomePage";
 import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Projects from "./pages/Projects";
 import Navigation from "./components/ui/navigation";
@@ -13,12 +14,14 @@ function App() {
     switch (currentPage) {
       case "about":
         return <AboutUs />;
+      case "services":
+        return <Services />;
       case "projects":
         return <Projects />;
       case "contact":
         return <ContactUs />;
       default:
-        return <ComingSoon />;
+        return <HomePage onPageChange={setCurrentPage} />;
     }
   };
 
