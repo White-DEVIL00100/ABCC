@@ -2,6 +2,7 @@ import { Suspense, useState } from "react";
 import ComingSoon from "./components/ComingSoon";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import Projects from "./pages/Projects";
 import Navigation from "./components/ui/navigation";
 import "@fontsource/inter";
 
@@ -12,6 +13,8 @@ function App() {
     switch (currentPage) {
       case "about":
         return <AboutUs />;
+      case "projects":
+        return <Projects />;
       case "contact":
         return <ContactUs />;
       default:

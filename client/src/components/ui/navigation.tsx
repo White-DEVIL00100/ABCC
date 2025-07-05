@@ -12,6 +12,7 @@ export default function Navigation({ currentPage, onPageChange }: NavigationProp
   const navItems = [
     { id: "home", label: "Home" },
     { id: "about", label: "About Us" },
+    { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact Us" }
   ];
 

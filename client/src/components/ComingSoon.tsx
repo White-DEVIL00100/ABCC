@@ -92,19 +92,19 @@ export default function ComingSoon() {
           isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div className="text-center p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg border border-slate-700">
-            <div className="text-green-400 text-2xl mb-2">🌱</div>
-            <h3 className="text-white font-semibold mb-2">Sustainable Building</h3>
-            <p className="text-slate-400 text-sm">Eco-friendly construction solutions for a greener future</p>
+            <div className="text-green-400 text-2xl mb-2">⚙️</div>
+            <h3 className="text-white font-semibold mb-2">MEP Solutions</h3>
+            <p className="text-slate-400 text-sm">Mechanical, Electrical & Plumbing with energy-efficient systems</p>
           </div>
           <div className="text-center p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg border border-slate-700">
             <div className="text-green-400 text-2xl mb-2">🏗️</div>
-            <h3 className="text-white font-semibold mb-2">Expert Construction</h3>
-            <p className="text-slate-400 text-sm">Professional contracting services with proven expertise</p>
+            <h3 className="text-white font-semibold mb-2">Civil Construction</h3>
+            <p className="text-slate-400 text-sm">Complete turnkey construction and fit-out solutions</p>
           </div>
           <div className="text-center p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg border border-slate-700">
-            <div className="text-green-400 text-2xl mb-2">💚</div>
-            <h3 className="text-white font-semibold mb-2">Green Innovation</h3>
-            <p className="text-slate-400 text-sm">Cutting-edge technology for sustainable construction</p>
+            <div className="text-green-400 text-2xl mb-2">🔧</div>
+            <h3 className="text-white font-semibold mb-2">Facility Management</h3>
+            <p className="text-slate-400 text-sm">Operations, maintenance and annual service contracts</p>
           </div>
         </div>
       </div>

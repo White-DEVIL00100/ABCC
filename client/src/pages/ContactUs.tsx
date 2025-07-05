@@ -214,17 +214,17 @@ export default function ContactUs() {
                     <div className="text-green-400 text-xl">📞</div>
                     <div>
                       <h3 className="font-semibold text-white mb-1">Phone</h3>
-                      <p className="text-slate-300">(555) 123-GREEN</p>
-                      <p className="text-slate-400 text-sm">Mon-Fri, 8 AM - 6 PM</p>
+                      <p className="text-slate-300">+966 59 608 6868</p>
+                      <p className="text-slate-400 text-sm">Contact: Ishtiaq Ahmed Abbasi</p>
                     </div>
                   </div>
 
                   <div className="flex items-start space-x-4">
                     <div className="text-green-400 text-xl">📍</div>
                     <div>
-                      <h3 className="font-semibold text-white mb-1">Office</h3>
-                      <p className="text-slate-300">123 Green Construction Way</p>
-                      <p className="text-slate-300">Sustainable City, SC 12345</p>
+                      <h3 className="font-semibold text-white mb-1">Location</h3>
+                      <p className="text-slate-300">Eastern Region, Saudi Arabia</p>
+                      <p className="text-slate-400 text-sm">Serving clients nationwide and beyond</p>
                     </div>
                   </div>
 
@@ -252,27 +252,27 @@ export default function ContactUs() {
 
               {/* Why Choose Us */}
               <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg border border-slate-700 p-6">
-                <h3 className="text-xl font-bold text-green-400 mb-4">Why Choose Abbasi Green?</h3>
+                <h3 className="text-xl font-bold text-green-400 mb-4">Why Choose AGCC?</h3>
                 <ul className="space-y-3 text-slate-300">
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Certified sustainable construction practices
+                    Distinguished quality and speed of achievement
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    25+ years of combined experience
+                    Classified Saudi contractor with proven track record
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Licensed and fully insured
+                    Energy-efficient and sustainable solutions
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Free consultations and estimates
+                    Complete MEP and civil construction services
                   </li>
                   <li className="flex items-center">
                     <span className="text-green-400 mr-3">✓</span>
-                    Warranty on all construction work
+                    National and international project experience
                   </li>
                 </ul>
               </div>

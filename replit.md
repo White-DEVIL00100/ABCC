@@ -37,9 +37,10 @@ This is a full-stack web application for Abbasi Green Contracting Company featur
 - **Camera.tsx**: Smooth orbital camera movement around the scene
 
 ### UI Components
-- **ComingSoon.tsx**: Main landing page component integrating 3D scene and UI
-- **AboutUs.tsx**: Company information page with mission, values, and team details
-- **ContactUs.tsx**: Contact form and business information page
+- **ComingSoon.tsx**: Main landing page component integrating 3D scene and UI with authentic AGCC services
+- **AboutUs.tsx**: Authentic company information with real mission, vision, values, and partnership details
+- **ContactUs.tsx**: Contact form with real business information (+966 59 608 6868, Ishtiaq Ahmed Abbasi)
+- **Projects.tsx**: Showcase of actual AGCC projects including villas, gas stations, and commercial complexes
 - **EmailSubscription.tsx**: Email capture form with loading states
 - **CountdownTimer.tsx**: Live countdown to launch date
 - **ParticleBackground.tsx**: Canvas-based particle animation system
@@ -110,12 +111,23 @@ This is a full-stack web application for Abbasi Green Contracting Company featur
 └── migrations/      # Database migration files
 ```
 
+## Recent Projects & Information Update
+
+The website now features authentic information from the AGCC company profile including:
+- Real contact information (Ishtiaq Ahmed Abbasi, +966 59 608 6868)
+- Authentic mission, vision, and values from company documents
+- Actual services: MEP, Civil & Turnkey Fit-out, Facility Management
+- Real project portfolio including villas in Al Khobar, ADNOC gas stations, commercial complexes
+- Partnership structure with multiple Abbasi Green companies
+- Company principles and leadership statements
+
 ## Changelog
 
 ```
 Changelog:
 - July 05, 2025: Initial setup with 3D coming soon page
-- July 05, 2025: Added About Us and Contact Us pages with navigation system
+- July 05, 2025: Added About Us and Contact Us pages with navigation system  
+- July 05, 2025: Updated with authentic AGCC company information and added Projects page
 ```
 
 ## User Preferences
